@@ -2,5 +2,33 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="lib/xuggle-xuggler-5.4.jar"/>
+	<classpathentry kind="lib" path="lib/OpenNI.jni64.dll"/>
+	<classpathentry kind="lib" path="lib/OpenNI.Net.dll"/>
+	<classpathentry kind="lib" path="lib/OpenNI64.dll"/>
+	<classpathentry kind="lib" path="lib/com.primesense.NITE.jar"/>
+	<classpathentry kind="lib" path="lib/org.OpenNI.jar"/>
+	<classpathentry kind="lib" path="lib/Policy.1.1.XnVNITE.Net.dll"/>
+	<classpathentry kind="lib" path="lib/Policy.1.2.XnVNITE.Net.dll"/>
+	<classpathentry kind="lib" path="lib/Policy.1.3.XnVNITE.Net.dll"/>
+	<classpathentry kind="lib" path="lib/Policy.1.4.XnVNITE.Net.dll"/>
+	<classpathentry kind="lib" path="lib/Policy.1.5.XnVNITE.Net.dll"/>
+	<classpathentry kind="lib" path="lib/PublisherPolicy1.1.config"/>
+	<classpathentry kind="lib" path="lib/PublisherPolicy1.2.config"/>
+	<classpathentry kind="lib" path="lib/PublisherPolicy1.3.config"/>
+	<classpathentry kind="lib" path="lib/PublisherPolicy1.4.config"/>
+	<classpathentry kind="lib" path="lib/PublisherPolicy1.5.config"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-jdk14-1.7.2.jar"/>
+	<classpathentry kind="lib" path="lib/XnVCNITE64_1_3_1.dll"/>
+	<classpathentry kind="lib" path="lib/XnVCNITE64_1_4_1.dll"/>
+	<classpathentry kind="lib" path="lib/XnVCNITE64_1_4_2.dll"/>
+	<classpathentry kind="lib" path="lib/XnVCNITE64_1_5_2.dll"/>
+	<classpathentry kind="lib" path="lib/XnVNITE.jni64.dll"/>
+	<classpathentry kind="lib" path="lib/XnVNITE.net.dll"/>
+	<classpathentry kind="lib" path="lib/XnVNITE64_1_3_1.dll"/>
+	<classpathentry kind="lib" path="lib/XnVNITE64_1_4_1.dll"/>
+	<classpathentry kind="lib" path="lib/XnVNITE64_1_4_2.dll"/>
+	<classpathentry kind="lib" path="lib/XnVNITE64_1_5_2.dll"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
