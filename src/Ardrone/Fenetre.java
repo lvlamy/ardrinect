@@ -16,7 +16,7 @@ public class Fenetre extends JFrame {
 		
 		this.setLayout(new BoxLayout(this.getContentPane(), BoxLayout.LINE_AXIS));
 		
-		PanelQuiDechire data = new PanelQuiDechire(drone);
+		NavPanel data = new NavPanel(drone);
 		
 		video = new VideoPanel();
 		

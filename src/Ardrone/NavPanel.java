@@ -10,12 +10,12 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-public class PanelQuiDechire extends JPanel implements Runnable {
+public class NavPanel extends JPanel implements Runnable {
 	private static final long serialVersionUID = 1L;
 	private ARDrone drone;
 	private JTextField last,state,fly,flagcmd,batField,thetaField,phiField,psiField,altField,vxField,vyField;
 	
-	public PanelQuiDechire(final ARDrone drone)
+	public NavPanel(final ARDrone drone)
 	{
 		this.drone = drone;
 		

@@ -1,6 +1,6 @@
 package GUI;
 
-import Ardrone.PanelQuiDechire;
+import Ardrone.NavPanel;
 import Ardrone.VideoPanel;
 import UsersViewer3D.SkelsManager;
 import UsersViewer3D.TrackerPanel3D;
@@ -60,7 +60,7 @@ public class GUI implements Runnable{
 	private ViewerPanel cameraView;
 		
 	private VideoPanel vpanel;
-	private PanelQuiDechire pqdpanel;
+	private NavPanel pqdpanel;
 	private ARDrone drone;
 	
 	private Controle controle;
@@ -237,7 +237,7 @@ public class GUI implements Runnable{
 		configOpenNI();
 		configDrone();
 		controle=new Controle(drone);
-		pqdpanel = new PanelQuiDechire(drone);
+		pqdpanel = new NavPanel(drone);
 		new Thread(pqdpanel).start();
 	
 		vpanel.setBounds(700, 11, 650, 400);
