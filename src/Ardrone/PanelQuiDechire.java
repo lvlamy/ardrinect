@@ -27,7 +27,6 @@ public class PanelQuiDechire extends JPanel implements Runnable {
 		last = new JTextField();
 		last.setEditable(false);
 		last.setPreferredSize(new Dimension(250,25));
-		//fly.setText("Test");
 		lastPan.add(last);
 		
 		JPanel statePan = new JPanel();
